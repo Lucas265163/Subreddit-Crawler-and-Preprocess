@@ -1,0 +1,9 @@
+requests
+praw
+pandas
+numpy
+beautifulsoup4
+python-dotenv
+jupyter
+matplotlib
+seaborn
