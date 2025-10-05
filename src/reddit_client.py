@@ -26,6 +26,7 @@ class RedditClient:
                     'created_utc': getattr(comment, 'created_utc', None),
                     'author': getattr(comment, 'author', None).name if getattr(comment, 'author', None) else None,
                     'submission_id': getattr(submission, 'id', None),
+                    'submission_text': getattr(submission, 'selftext', None), 
                     'submission_title': getattr(submission, 'title', None),
                 }
 
